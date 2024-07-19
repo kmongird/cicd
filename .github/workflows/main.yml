@@ -1,0 +1,10 @@
+name: example
+
+on: push
+
+jobs:
+  hello_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greeting!
+        run: echo hello world!
